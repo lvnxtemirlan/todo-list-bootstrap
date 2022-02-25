@@ -75,8 +75,8 @@ if (window.location.href.search("index") > 0) {
     localStorage.setItem("New Todo", JSON.stringify(listArray)); //set the item in localstorage
 
     showTasks(); //call the showTasks function
-    var audio = new Audio("./airball.mp3");
-    audio.play();
+    // var audio = new Audio("./airball.mp3");
+    // audio.play();
   }
 }
 
